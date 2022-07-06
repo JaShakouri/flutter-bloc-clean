@@ -1,16 +1,20 @@
-# supplier_drivers
+I'm a self-taught passionate FullStack developer from Iran
 
-A project about supplier logistic driver for distribute products
+**About me**
 
-## Getting Started
+- 💼 CTO - Software Engineer at [Otamin](http://otamin.com/)
+- Advance experience with java spring, android native with java and kotlin, advance flutter and beginner on react
 
-This project is a starting point for a Flutter application.
+- 💬 Ask me about anything [here](https://github.com/jashakouri/jashakouri/issues)
 
-A few resources to get you started if this is your first Flutter project:
+<br />
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+**About project**
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 🤠 Flutter sample project with bloc and clean architecture
+- ❤ Made with love for practice and learn
+- 😎 Please give me your comment in [Issue](https://github.com/JaShakouri/flutter-bloc-clean/issues)
+
+- 🙏 Share for everybody and help to open Source [share](https://github.com/JaShakouri/flutter-bloc-clean)
+
+<br />
