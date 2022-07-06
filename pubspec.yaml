@@ -1,0 +1,112 @@
+name: supplier_drivers
+description: A project about supplier logistic driver for distribute products
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Get IT is for Dependencies injection into app
+  get_it: ^7.2.0
+  injectable: ^1.5.3
+
+  # Flutter plugin for launching a URL in the mobile platform. Supports iOS and Android.
+  url_launcher: ^6.1.4
+
+  # Checker internet connection
+  data_connection_checker: ^0.3.4
+
+  # Flutter widgets that make it easy to implement the BLoC design pattern.
+  bloc: ^8.0.1
+  flutter_bloc: ^8.0.1
+
+  # Package provides internalization and localization facilities, including message translation,
+  # plurals and genders, date/number formatting and parsing, and bidirectional text.
+  intl: ^0.17.0
+
+  # Flutter library to load and cache network images. Can also be used with placeholder and
+  # error widgets.
+  cached_network_image: ^3.2.0
+
+  # How to get the most value from Dart static analysis.
+  pedantic: ^1.11.1
+  lints: ^1.0.1
+
+  # An SVG rendering and widget library for Flutter, which allows painting and displaying Scalable
+  # Vector Graphics 1.1 files.
+  flutter_svg: ^1.0.3
+
+  # Equatable model with them
+  equatable: ^2.0.3
+
+  # Data Base Engine
+  hive_flutter: ^1.1.0
+
+  # Endpoint for call rest api
+  dio: ^4.0.6
+
+  # get device info provider for get information about phone
+  device_info_plus: ^4.0.0
+
+  # Functional programming with this library
+  dartz: ^0.10.1
+
+  # screen utils for get screen information like size and pixel
+  flutter_screenutil: ^5.5.3+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^1.0.0
+  build_runner: ^2.1.7
+
+flutter:
+
+  uses-material-design: true
+
+  fonts:
+    - family: yekan-thin
+      fonts:
+        - asset: assets/font/Yekan_Bakh_Thin.ttf
+    - family: yekan-light
+      fonts:
+        - asset: assets/font/Yekan_Bakh_Light.ttf
+    - family: yekan
+      fonts:
+        - asset: assets/font/Yekan_Bakh_Medium.ttf
+    - family: yekan-regular
+      fonts:
+        - asset: assets/font/Yekan_Bakh_Regular.ttf
+    - family: yekan-bold
+      fonts:
+        - asset: assets/font/Yekan_Bakh_Bold.ttf
